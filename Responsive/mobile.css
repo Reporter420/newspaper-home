@@ -1,0 +1,76 @@
+@media only screen and (max-width: 600px) {
+    
+    .header {height: auto;}
+    .header-c {overflow: hidden;padding: 0;margin-top: 10px;}
+    .header-c .logo {width: 100%;float: none;padding: 0;margin: auto;}
+    .header-ad {width: 100%;float: none;margin-top: 10px;}
+    .logo img {;width: 80%;margin: auto;}
+    .social-icon {float: none;margin: auto;width: 100%;text-align: center}
+    
+    .social-icon-c {margin-top: 12px;float: none;}
+.social-icon .fa {font-size: 20px;}
+.date {width: 100%;margin-top: 5px;margin-bottom: 50px;}
+    
+.nav {overflow: hidden;margin-top: -30px;}
+    
+    .n2 {display: none;}
+    .n1 {width: 50%;text-align: left;margin-top: -5px;}
+    .n3 {width: 50%;text-align: right;}
+    
+    
+.news-ticker {height: 50px;float: none;}
+.news-ticker marquee {display: block;width: 70%;background-color: #eae8e8;height: 25px;padding-top: 5px}
+.news-ticker marquee a {font-family: lato}
+
+.t-title {width: 20%;display: inline;}
+.t-title a {font-size: 14px;margin: auto;width: auto;}
+
+.date p{font-size: 14px;margin-top: 3% }
+
+/* =======================================================For Footer Only ====================== */
+
+@media only screen and (max-width: 800px){
+    
+    .footer .logo {float:none;margin: auto;}
+.footer .address {float:none;margin: auto;width: 80%;}
+.footer .contact {float:none;margin: auto;width: 80%;text-align: center;}
+.footer .social-icon {float:none;margin: auto;width:80%;}
+    
+    
+    
+    /* ==================================post part======================================= */
+.container {width: 90%;}
+
+.post-part {width: 100%;float: none;margin: auto;}
+
+/* ============== */
+.recent-post-part {width: 100%;float: none;margin: auto;}
+
+
+
+.big-thumb {width: 100%}
+.big-post h1 {font-size: 18px;}
+
+/* ----- After Big ------ */
+.after-big-post .grid-container {
+  grid-template-columns: auto;
+}
+.after-big-post .grid-item {
+  font-size: 14px;width: 85%;
+}
+
+/* ===========Top Post=========== */
+.top-post-part {display: none;}
+/* =================SIdebar part ================= */
+.sidebar-part {float: none;width:100%;overflow: hidden;}
+   .sidebar-part .sidebar-c {width: 80%;margin: auto;}
+.sidebar-c iframe {width:90%;margin-left: 10%;}
+    .sidebar-c .sidebar-ad {margin: auto;width: 80%;}
+    
+
+
+    
+}
+    
+    
+}/* This is Media  queri last bracket */

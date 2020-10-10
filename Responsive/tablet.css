@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1000px) and (min-width: 601px){
+    
+    
+    /* Header Part Start */
+    .header {height: auto;}
+.header-c {width: 80%;}
+    .header-c .logo {width: 40%;}
+    .header-c .banner {width: 70%;}
+    .header-c .social-icon {width: 100%;float: none;overflow: hidden;text-align: center;}
+.header-c .social-icon-c {margin-top: 12px;float: none;}
+
+
+/* Header Part End */
+
+    .news-ticker {display: block;width: 80%;height: 50px;margin: auto;margin-top: 10px;}
+.news-ticker marquee {display: inline;width: 80%;}
+.news-ticker marquee a {}
+
+.t-title {;overflow: hidden;display: inline;}
+    
+
+/* Inside Header Container */
+
+.logo img {height: 50px;width: 180px;}
+/* Inside Header Container */
+
+/* nav */
+.nav-c {width: 100%;}
+
+.n2 {width: 70%;}
+    .n2 ul li a{font-size: 15px;}
+    .date p {font-size: 15px;}
+    .n1 {width: 15%}
+    .n3 {width: 15%;}
+/* Header Part End */
+
+    .footer .address p {font-size: 15px}
+    .footer .contact ul li a {font-size: 15px;}
+    
+    
+    /* ==================================post part======================================= */
+.container {width:95%;}
+
+.post-part {width: 90%;float: none;margin: auto
+    
+    }
+
+/* ============== */
+.recent-post-part {width: 60%;float: left;z-index: 5;padding: 10px;overflow: hidden;}
+
+
+.big-post {width: 370px;}
+.big-thumb {height: 200px;}
+.big-post h1 {font-size: 20px;}
+
+/* ----- After Big ------ */
+.after-big-post .grid-container {
+    grid-template-columns: auto;}
+.after-big-post .grid-item {
+    width: 80%;}
+
+/* ===========Top Post=========== */
+.top-post-part {width: 30%;float: left;}
+.top-post {width: 280px;}
+.top-post-part .grid-container {
+  grid-template-columns: auto;
+}
+    .top-post img {height: 300px;width: 500px;}
+/* =================SIdebar part ================= */
+.sidebar-part {float: none;width:100%;overflow: hidden;}
+
+.sidebar-c {width: 70%; margin: auto;padding: 10px 0;display: grid;grid-template-columns: auto auto}
+.sidebar-c iframe {width: 240px;display}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+}

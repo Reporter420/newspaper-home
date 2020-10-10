@@ -1,0 +1,145 @@
+body {margin: 0;padding: 0;font-family: 'SolaimanLipi', sans-serif;}
+
+/* =================================================== Designed By NAzmul Hasan Aynan=============================================================  */
+
+/* Header Part Start */
+.header {width: 100%;height: auto;background-color: #fff;display: block;overflow: hidden;}
+
+.header-c {width: 70%;padding:12px;margin: auto;overflow: hidden;}
+
+
+/* Header Part End */
+
+
+/* Inside Header Container */
+
+.header .logo {float: left;width: 30%;overflow:hidden;}
+.logo img {height: 60px;width: 200px;}
+
+.header-ad {width: 45%;float: left;overflow: hidden;margin: auto;margin-top:10px;}
+
+.social-icon {width: 25%;float: left;}
+.social-icon-c {margin-top: 12px;float: right;}
+.social-icon .fa {font-size: 25px;color: darkblue;background-color: #eae8e8;padding: 8px;border-radius: 50%;height: 25px;width: 25px;text-align: center;}
+.date {display: block;width: 100%;text-align: center;margin-top: -12px;}
+/* Inside Header Container */
+
+/* ==============================nav============================= */
+
+.nav {display: block; height: auto;width: 100%;background-color: #2D5EA3;top:120px;overflow: hidden;}
+.nav-c {width: 80%;margin: auto;}
+.n1 {width: 25%; text-align: right;float: left;}
+.n1 i{font-size: 30px;margin-top: 8px;color: #fff;}
+
+.n2 {width: 50%;float: left;}
+.n2 ul {list-style: none;margin-top: 9px;}
+.n2 ul li {display: inline-block;padding:0 10px}
+.n2 ul li a:hover {background-color: #ddd;color: black;padding: 5px}
+.n2 ul li a {color: #fff;text-decoration: none;font-size: 16px;}
+
+.n3 {width: 25%; float: left;}
+.n3 i{font-size: 25px;margin-top:10px;color: #fff;}
+.n3 span {font-size:25px;color:aliceblue;margin-left: 5px;}
+
+
+
+
+/* Header Part End */
+
+.news-ticker {display: block;width: 80%;height: 50px;margin: auto;margin-top: 10px;}
+.news-ticker marquee {float: left;background-color: #eae8e8;height: 25px;padding-top: 5px;width: 90%}
+.news-ticker marquee a {color: black;text-decoration: none;}
+.news-ticker marquee a:hover {color: #2D5EA3;}
+
+.t-title {;overflow: hidden;float: left;border-right: 5px solid #bacad6;}
+.t-title a {height: 25px;width: 80px;overflow: hidden;display: block;background-color: #2D5EA3;font-weight: bold;padding-left: 5px;color: white;text-align: center;padding-top: 5px;}
+
+/* ==================================post part======================================= */
+.container {width: 80%;margin: auto;margin-top: 30px;overflow: hidden;margin: auto;}
+
+
+
+.post-part {width: 70%;float: left;display: block;overflow: hidden;box-sizing: border-box;position: relative;margin-right: -80px;margin-left: 80px}
+
+/* ============== */
+.recent-post-part {width: 45%;float: left;z-index: 5;padding: 10px;overflow: hidden;}
+
+
+.big-post {width: 380px;}
+.big-thumb {height: 200px;width: inherit}
+.big-post h1 {margin: 0;font-size: 21px;}
+
+/* ----- After Big ------ */
+.after-big-post {margin-top: 5px;}
+.after-big-post .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
+}
+.after-big-post .grid-item {
+  background-color: #F1F1F1;
+   padding: 0px;
+  font-size: 15px;
+    padding: 5px;margin-bottom: 12px;margin-right: 5px;
+}
+.after-big-post .grid-item a{color: black;text-decoration: none;}
+.after-big-post .grid-item a:hover{color: #2D5EA3;}
+/* ===========Top Post=========== */
+.top-post-part {width: 35%;float: left;z-index: 5;overflow: hidden;}
+.top-post {width: 220px;}
+.top-post-part .grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+    margin-left: 20px;
+  
+}
+.top-post-part .grid-item {
+}
+.top-post-part .grid-item img{height: 120px;width: 220px;}
+.top-post-part .grid-item h1 {font-size: 16px;}
+
+/* =================SIdebar part ================= */
+.sidebar-part {float: left;width:30%;z-index: 1;overflow: hidden;margin-top: -2px;}
+
+.sidebar-c {width: 90%;padding: 10px 0;}
+.sidebar-c .sidebar-ad {margin: auto}
+
+/* ============ Popo ======= */
+
+.block {background-color: #2D5EA3;padding: 2px;color: white;font-size: 13px;text-align: center;border-bottom: 4px solid gray;opacity: 0.8;width: 300px}
+
+.popular {height: 350px;overflow: auto;background-color: #bacad6;margin-bottom: 40px;width: 304px}
+.popular ul {list-style: circle;}
+.popular li {padding: 5px;}
+.popular ul li a::before {content: '';}
+
+.popular::-webkit-scrollbar-track {
+  border: 1px solid #000;
+  padding: 2px 0;
+  background-color: #2D5EA3;
+}
+
+.popular::-webkit-scrollbar {
+  width: 10px;
+}
+
+.popular::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: gray;
+  border: 1px solid #000;
+}
+
+/* =================================Footer================================== */
+.footer {width: 100%;background-color: #EAE8E8;overflow: hidden;}
+.footer-c {width:80%;margin: auto;padding-top: 20px }
+
+.footer .logo {width: 33%;float: left;}
+.footer .address {width: 33%;float: left;}
+.footer .contact {width: 33%;float: left;}
+.footer .contact ul{list-style: none;}
+ .footer .contact ul li a{font-size: 22px;}
+.footer .contact ul li i{margin-right: 10px;font-size: 22px;width: 30px;}
+.footer .social-icon {width: 100%;float: none;text-align: center}
+.footer .social-icon-c {float: none;margin: auto;margin-bottom: 20px;width: 80%;}
