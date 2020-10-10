@@ -69,7 +69,7 @@
 /* =================SIdebar part ================= */
 .sidebar-part {float: none;width:100%;overflow: hidden;}
 
-.sidebar-c {width: 70%; margin: auto;padding: 10px 0;display: grid;grid-template-columns: auto auto}
+.sidebar-c {width: 70%; margin: auto;padding: 10px 0}
 .sidebar-c iframe {width: 240px;display}
 
 
